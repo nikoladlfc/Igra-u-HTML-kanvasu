@@ -313,7 +313,7 @@ function npcBehavior(npc) {
 
 const levelControll = (value) => {
   const map = second.world.map;
-  // LOGO
+  // Logo
   if (level === first || level === second) {
     if (value === 6) {
       coinCount++;
@@ -325,7 +325,7 @@ const levelControll = (value) => {
     } 
 
     coinsDOM.slice(0, coinCount).forEach(e => {
-      e.src = 'assets/img/logo.png'
+      e.src = 'assets/img/Logo.png'
     });
     
 
